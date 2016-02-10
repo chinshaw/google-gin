@@ -1,0 +1,4 @@
+Quick and dirty port of Gin to work with Guice 4.0. 
+
+TODO
+Fix the test cases. 
