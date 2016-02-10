@@ -16,6 +16,13 @@
 
 package com.google.gwt.inject.rebind.util;
 
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
 import com.google.gwt.inject.rebind.binding.BindingIndex;
 import com.google.gwt.inject.rebind.binding.Context;
 import com.google.gwt.inject.rebind.binding.Injectable;
@@ -28,14 +35,6 @@ import com.google.inject.Inject;
 import com.google.inject.Key;
 import com.google.inject.TypeLiteral;
 import com.google.inject.assistedinject.Assisted;
-
-import java.lang.reflect.Method;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
 
 /**
  * Helper object for source writing.

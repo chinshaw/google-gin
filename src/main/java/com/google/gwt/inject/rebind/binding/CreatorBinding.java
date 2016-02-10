@@ -16,6 +16,12 @@
 
 package com.google.gwt.inject.rebind.binding;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
 import com.google.gwt.inject.rebind.reflect.MethodLiteral;
 import com.google.gwt.inject.rebind.reflect.NoSourceNameException;
 import com.google.gwt.inject.rebind.reflect.ReflectUtil;
@@ -28,13 +34,6 @@ import com.google.gwt.inject.rebind.util.SourceSnippetBuilder;
 import com.google.gwt.inject.rebind.util.SourceSnippets;
 import com.google.inject.Key;
 import com.google.inject.TypeLiteral;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
 
 /**
  * Abstract binder that takes a type and performs the required key analysis and

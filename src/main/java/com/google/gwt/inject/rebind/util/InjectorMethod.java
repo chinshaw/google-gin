@@ -16,7 +16,6 @@
 package com.google.gwt.inject.rebind.util;
 
 import com.google.gwt.inject.rebind.reflect.NoSourceNameException;
-import com.google.gwt.inject.rebind.util.NameGenerator;
 
 /**
  * A method that will be written to an injector implementation.

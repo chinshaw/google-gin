@@ -20,8 +20,6 @@ import com.google.gwt.inject.rebind.GinjectorBindings;
 import com.google.inject.Key;
 import com.google.inject.TypeLiteral;
 
-import java.util.ArrayList;
-
 /**
  * Utility class for source snippets.
  */

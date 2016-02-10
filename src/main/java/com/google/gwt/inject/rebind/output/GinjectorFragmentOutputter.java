@@ -15,6 +15,9 @@
  */
 package com.google.gwt.inject.rebind.output;
 
+import java.io.PrintWriter;
+import java.util.List;
+
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.ext.GeneratorContext;
 import com.google.gwt.core.ext.TreeLogger;
@@ -37,10 +40,6 @@ import com.google.gwt.user.rebind.SourceWriter;
 import com.google.inject.Inject;
 import com.google.inject.Key;
 import com.google.inject.assistedinject.Assisted;
-
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Writes the definition of a single fragment of the Ginjector.  A Ginjector
